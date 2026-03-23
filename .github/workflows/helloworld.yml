@@ -3,7 +3,7 @@ name: "Hello world workflow"
 on:
   push:
     branches:
-      - master
+      - main
       - production
 
 jobs:
@@ -12,3 +12,5 @@ jobs:
     steps:
         - name: "Print hello world"
           run: echo "Hello, World!"
+
+        #   C:\Users\sharm\OneDrive\Desktop\sample-github-action\.github\workflows\helloworld.yml
